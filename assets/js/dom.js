@@ -16,6 +16,8 @@ export const createStyle = () => {
     color: #ddd3d3;
   }
   .container {
+    max-width: 1240px;
+    margin: 0 auto;
     padding: 20px;
   }
   h1 {
