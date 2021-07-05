@@ -67,6 +67,7 @@ export const createStyle = () => {
   .search-block__checkbox {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 15px;
   }
   .search__checkbox{
