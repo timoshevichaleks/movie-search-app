@@ -58,7 +58,7 @@ export const createStyle = () => {
     display: block;
     border: 2px solid rgb(68, 68, 68);
     border-radius: 4px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
   .search__input:focus {
     outline: none;
@@ -68,7 +68,7 @@ export const createStyle = () => {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15px;
+    gap: 7px;
   }
   .search__checkbox{
     width: 15px;
