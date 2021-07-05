@@ -46,6 +46,7 @@ export const createStyle = () => {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 20px;
   }
   .search__label-input {
     display: block;
@@ -65,10 +66,15 @@ export const createStyle = () => {
   }
   .search-block__checkbox {
     display: flex;
-    gap: 10px;
+    align-items: center;
+    gap: 15px;
+  }
+  .search__checkbox{
+    width: 15px;
+    height: 15px;
   }
   .search__label-checkbox {
-    font-size: 12px;
+    font-size: 14px;
     display: block;
   }
     `;
