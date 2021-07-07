@@ -46,7 +46,7 @@ export const createStyle = () => {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   .search__label-input {
     display: block;
@@ -58,7 +58,6 @@ export const createStyle = () => {
     display: block;
     border: 2px solid rgb(68, 68, 68);
     border-radius: 4px;
-    margin-bottom: 5px;
   }
   .search__input:focus {
     outline: none;
